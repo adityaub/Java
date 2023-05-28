@@ -4,7 +4,7 @@ class Demo{
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 
 		System.out.println("Enter first String:");
-		String str=br.readLine();
+		String str1=br.readLine();
 
 		System.out.println("Enter second String:");
 		String str2=br.readLine();
@@ -17,7 +17,7 @@ class Demo{
 		}
 	}
 	static int strLen(String str){
-		char arr[]=str.tocharArray();
+		char arr[]=str.toCharArray();
 		int count=0;
 
 		for(int i=0;i<arr.length;i++){
